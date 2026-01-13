@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>My WebSite</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <Header class="header-main"> 
+        <div class="header-main-logo">
+            <a href="index.html"><img src="./Logo/de.png" alt="dinkys logo"></a>
+          
+        </div>
+          <nav class="header-main-nav">
+                <ul>
+                    
+                    <li><a href="mens.html">Mens</a></li>
+                    <li><a href="index.html">Womens</a></li>
+                    <li><a href="Bed.html">Beds</a></li>
+                </ul>
+            </nav>
+        <div class="header-main-sm">
+  
+        </div>
+ </Header>
+   
+
+
+
+
+
+
+
+    <style>
+        /* --- GLOBAL STYLES --- */
+
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', sans-serif; }
+        body { color: var(--primary); line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; justify-content: center}
+        img { max-width: 100%; display: block; }
+
+        /* --- HEADER --- */
+        header {background-color: #f7eded; display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; border-bottom: 1px solid #f7eded; }
+
+        .icons span { margin-left: 1rem; cursor: pointer; }
+
+        /* --- BUTTONS --- */
+        .btn { display: inline-block; padding: 10px 25px; background: var(--primary); color: var(--white); border: none; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: var(--accent); }
+        .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
+
+        /* --- LAYOUT UTILITIES --- */
+        section { padding: var(--padding); }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+
+        /* --- HOME HERO --- */
+        .hero { background: #e0e0e0; height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; }
+
+        /* --- PRODUCT CARD --- */
+        .product-card { border: 1px solid #eee; padding: 1rem; text-align: center; transition: 0.3s; }
+        .product-card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .product-image { height: 250px; background: #ddd; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; }
+        
+        /* --- SHOP PAGE STYLES --- */
+        .shop-container { display: flex; gap: 2rem; }
+        .sidebar { flex: 1; min-width: 200px; }
+        .shop-content { flex: 3; }
+        .filter-group { margin-bottom: 2rem; }
+        
+        /* --- SINGLE PRODUCT STYLES --- */
+        .product-detail { display: flex; gap: 4rem; flex-wrap: wrap;justify-content: center; }
+        .detail-image {  height: 500px; width: 500px; background: #ddd; display: flex; justify-content: center;}
+        .detail-info { flex: 1; padding: 60px;justify-content: center }
+        
+
+
+        /* --- FOOTER --- */
+        footer { background: var(--primary); color: var(--white); padding: 3rem 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+        footer h3 { margin-bottom: 1rem; color: var(--accent); }
+
+   
+
+        .imagebox {
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;/*sapce in devboxes*/
+    background-color: #ddd;
+    display: flex; /*div box next to each other*/
+    flex-wrap: wrap; /*div box wrap*/
+    align-content: center;/*center items in main div box*/    
+    padding-left: 60px;
+   
+    padding-right: 60px;  
+  }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Dinky's Embroidery</div>
+        <nav>
+
+        </nav>
+
+    </header>
+
+   <main class="main-product">
+    <section class="product-detail">
+        <div class="detail-image" style="display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #757575;">
+            Product Image
+        </div>
+<div class="imagebox">
+        <div class="photo1"> photo1</div>
+        <div class="photo2"> photo2</div>
+
+</div>
+
+        <div class="detail-info">
+            <p style="color: #666; margin-bottom: 0.5rem;">Men / Shirts</p>
+            <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">The Classic Oxford</h1>
+            <h2 style="color: var(--accent); margin-bottom: 1.5rem;">Rs 3300.00</h2>
+            <p style="margin-bottom: 2rem;">
+                Handcrafted from 100% organic cotton. Features a relaxed fit suitable for office or casual wear. 
+                Pre-washed for softness and minimal shrinkage.
+            </p>
+
+            <div style="margin-bottom: 2rem;">
+                <strong>Size:</strong>
+                <div style="margin-top: 0.5rem;">
+                    <button class="btn-outline" style="margin-right: 10px;">S</button>
+                    <button class="btn-outline" style="margin-right: 10px;">M</button>
+                    <button class="btn-outline" style="margin-right: 10px;">L</button>
+                    <button class="btn-outline">XL</button>
+                </div>
+            </div>
+
+            <button class="btn" style="width: 100%; padding: 15px;">Whats App For Order</button>
+            
+            <ul style="margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem;">
+                <li>✔ Island Wide Delivery</li>
+                <li>✔ 100% Embroidered Design</li>
+            </ul>
+        </div>
+
+    </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Dinky's Embroidery</h3>
+            <p>Quality meets ethics. 2025.</p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
