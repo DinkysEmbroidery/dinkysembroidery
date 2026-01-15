@@ -109,9 +109,7 @@ a {cursor: pointer;}
         .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
 
         /* --- LAYOUT UTILITIES --- */
-        section { padding: var(--padding); }
-        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
-        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+     
 
         /* --- HOME HERO --- */
         .hero { background: #737373; height: 80vh; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; }

@@ -116,52 +116,72 @@ a {cursor: pointer;}
 
 
 h1 {
-    font-style: italic;
+    font-style:bold ;
     font-size:50pt;
     display: flex;
     justify-content: center;
 }
-
+h2 {
+    font-style: italic;
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(134, 126, 126);
+}
+.item-name h4 {font-size: 15pt;}
+.item-name {    font-style: italic;
+    font-size: 20pt;
+    display: list-item;
+    justify-self: center;
+    }
 
 
 
     .newarival {
-    height: 536px;
+    height: 100%;
     width: 100%;
-      display: flex;
-      background-color: #737373;
-      justify-content: space-around;
-      flex-wrap: wrap;
-}
+    justify-content: space-between;/*sapce in devboxes*/
+
+    
+    display: flex; /*div box next to each other*/
+    flex-wrap: wrap; /*div box wrap*/
+    align-content: center;/*center items in main div box*/
+    gap: 50px 40px ;
+    }
 
 .na1 {
   
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(./HomeImages/Nike.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
      
 }
 .na2 {
-  
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    
-}
-.na3 {
-  
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;}
+.na3  {
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-     
-}
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;}
 .na4 {
-  
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    
-}
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;}
 
 
 
@@ -170,40 +190,50 @@ h1 {
 
 
     .Custom {
-    height: 536px;
+    height: 100%;
     width: 100%;
-      display: flex;
-      background-color: #737373;
-      justify-content: space-around;
-      flex-wrap: wrap;
+    justify-content: space-evenly;/*sapce in devboxes*/
+
+    
+    display: flex; /*div box next to each other*/
+    flex-wrap: wrap; /*div box wrap*/
+    align-content: center;/*center items in main div box*/
+    gap: 50px 40px ;
 }
 
 .cs1 {
-  
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;
      
 }
 .cs2 {
-  
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 .cs3 {
-  
     height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-     
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .cs4 {
-  
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(.//HomeImages/Nike2.png);
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -214,32 +244,43 @@ h1 {
 
 
 .mainsm {
-    height: 536px;
+    height: 100%;
     width: 100%;
-      display: flex;
-      background-color: #737373;
-      justify-content: space-around;
-      flex-wrap: wrap;}
+    justify-content: space-evenly;/*sapce in devboxes*/
+
+    
+    display: flex; /*div box next to each other*/
+    flex-wrap: wrap; /*div box wrap*/
+    align-content: center;/*center items in main div box*/
+    gap: 50px 40px ;}
 .youtube { 
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    background-image: url(./HomeImages/yt\(536\ x\ 536\ px\).png);   }
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(./HomeImages/YT.png);
+   background-repeat: no-repeat;
+    background-position: center;   }
 .tiktok { 
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    background-image: url(./HomeImages/yt\(536\ x\ 536\ px\).png); }
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(./HomeImages/TK.png);
+   background-repeat: no-repeat;
+    background-position: center;  }
 .instagram { 
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    background-image: url(./HomeImages/yt\(536\ x\ 536\ px\).png);   }
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(./HomeImages/IG.png);
+   background-repeat: no-repeat;
+    background-position: center;    }
 .facebook { 
-    height: 536px;
-    width: 255px;
-    background-color: antiquewhite;
-    background-image: url(./HomeImages/yt\(536\ x\ 536\ px\).png); }
+     height: 536px;
+    width: 300px;
+    background-color: #737373;
+    background-image: url(./HomeImages/FB.png);
+   background-repeat: no-repeat;
+    background-position: center;  }
 
 
 
