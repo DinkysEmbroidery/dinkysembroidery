@@ -128,7 +128,7 @@ a {cursor: pointer;}
         
         /* --- SINGLE PRODUCT STYLES --- */
         .product-detail { display: flex; gap: 4rem; flex-wrap: wrap;justify-content: center; }
-        .detail-image {  height: 500px; width: 500px; background: #737373; display: flex; justify-content: center; align-content: center;}
+        .detail-image {  height: 500px; width: 500px; background: #737373; display: flex; justify-content: space-around; align-content: center;}
         .detail-info { flex: 1; padding: 60px;justify-content: center }
         
 
@@ -141,7 +141,7 @@ a {cursor: pointer;}
 
 
         .imagebox {
-    height: 400px;
+    height:550px;
     width: 100%;
     justify-content: space-around;/*sapce in devboxes*/
     background-color: #737373;

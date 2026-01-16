@@ -117,13 +117,13 @@ a {cursor: pointer;}
 
 h1 {
     font-style:bold ;
-    font-size:50pt;
+    font-size:42pt;
     display: flex;
     justify-content: center;
 }
 h2 {
-    font-style: italic;
-    font-size: 40pt;
+    font-style: bold;
+    font-size: 28pt;
     display: flex;
     justify-content: center;
     background-color: rgb(134, 126, 126);
@@ -154,7 +154,7 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(./HomeImages/Nike.png);
+    background-image: url(./HomeImages/NarutowhiteT\ \(250\ x\ 350\ px\).png);
     background-repeat: no-repeat;
     background-position: center;
    
@@ -172,14 +172,14 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(.//Wemens/Kitty/RedT\ \(250\ x\ 350\ px\).png);
     background-repeat: no-repeat;
     background-position: center;}
 .na4 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(.//Wemens/KittyGym/whiteT\ \(250\ x\ 350\ px\).png);
     background-repeat: no-repeat;
     background-position: center;}
 
@@ -205,7 +205,7 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(.//Beds/Saman/Bed350X350\ \(2\).png);
     background-repeat: no-repeat;
     background-position: center;
      
@@ -214,7 +214,7 @@ h2 {
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(.//HomeImages/Design\(250\ x\ 350\ px\).png);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -223,7 +223,7 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(#);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -231,7 +231,7 @@ h2 {
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Nike2.png);
+    background-image: url(#);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -257,28 +257,28 @@ h2 {
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(./HomeImages/YT.png);
+    background-image: url(./HomeImages/SocialMedia/YT.png);
    background-repeat: no-repeat;
     background-position: center;   }
 .tiktok { 
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(./HomeImages/TK.png);
+    background-image: url(./HomeImages/SocialMedia/TK.png);
    background-repeat: no-repeat;
     background-position: center;  }
 .instagram { 
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(./HomeImages/IG.png);
+    background-image: url(./HomeImages/SocialMedia/IG.png);
    background-repeat: no-repeat;
     background-position: center;    }
 .facebook { 
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(./HomeImages/FB.png);
+    background-image: url(./HomeImages/SocialMedia/FB.png);
    background-repeat: no-repeat;
     background-position: center;  }
 

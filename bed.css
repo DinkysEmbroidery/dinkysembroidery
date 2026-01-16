@@ -92,8 +92,6 @@ a {cursor: pointer;}
 
 
 
-
-
 h1 {
     font-style: italic;
     font-size:50pt;
@@ -118,25 +116,85 @@ h1 {
 }
 
 
-/*Product Details*/
-.product {
-    
-  
-    height: 300px;
-    width: 250px;
-    background-color: rgb(150, 53, 53);
-
-}
-
-.item-name {
-    
-  height: 60px;
-  width: 250px;
-  background-color: #737373;
-  margin-top: 240px;
-  align-content: center;
-}
+/*Product Details Row 1*/
 
 .first-row ul li {
-    justify-self: center;
+    justify-self: center;}
+  
+.product1 {
+    background-image: url(./Beds/Saman/BedGold350X350\ \(3\).png);
+    height: 350px;
+    width: 350px;}
+.product2 { 
+    background-image: url(.//Beds/Saman/Bed\ Merron350X350\ \(3\).png);
+    height: 350px;
+    width: 350px;}
+.product3 {   
+    background-image: url(.//Beds/Saman/BedGreen350X350\ \(3\).png);
+    height: 350px;
+    width: 350px;}
+
+.product4 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product5 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product6 {
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product7 {  
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product8 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+
+
+
+
+/*Product Details Row 2*/
+.product9 {
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product10 { 
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product11 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+
+.product12 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product13 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product14 {
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product15 {  
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+.product16 {   
+    background-image: url(#);
+    height: 360px;
+    width: 250px;}
+
+li {
+    color: #14fa27;
+    font-size: large;
+   
 }
