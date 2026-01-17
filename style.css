@@ -205,7 +205,7 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//Beds/Saman/Bed350X350\ \(2\).png);
+    background-image: url(./HomeImages/Custom/BlackT100x100.png);
     background-repeat: no-repeat;
     background-position: center;
      
@@ -214,7 +214,7 @@ h2 {
      height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(.//HomeImages/Design\(250\ x\ 350\ px\).png);
+    background-image: url(.//HomeImages/Custom/RedT180x130.png);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -223,7 +223,7 @@ h2 {
     height: 536px;
     width: 300px;
     background-color: #737373;
-    background-image: url(#);
+    background-image: url(./HomeImages/Custom/whiteT200x300.png);
     background-repeat: no-repeat;
     background-position: center;
 }
