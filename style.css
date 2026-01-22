@@ -73,7 +73,7 @@ a {cursor: pointer;}
 .header-main-sm-yt {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/Design\(250\ x\ 350\ px\)\ \(40\ x\ 40\ px\).png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -81,7 +81,7 @@ a {cursor: pointer;}
 .header-main-sm-tk {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/tiktok.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -254,33 +254,33 @@ h2 {
     align-content: center;/*center items in main div box*/
     gap: 50px 40px ;}
 .youtube { 
-     height: 536px;
+     height: 300px;
     width: 300px;
     background-color: #737373;
     background-image: url(./HomeImages/SocialMedia/YT.png);
    background-repeat: no-repeat;
-    background-position: center;   }
+     }
 .tiktok { 
-     height: 536px;
+     height: 300px;
     width: 300px;
     background-color: #737373;
     background-image: url(./HomeImages/SocialMedia/TK.png);
    background-repeat: no-repeat;
-    background-position: center;  }
+     }
 .instagram { 
-     height: 536px;
+     height: 300px;
     width: 300px;
     background-color: #737373;
     background-image: url(./HomeImages/SocialMedia/IG.png);
    background-repeat: no-repeat;
-    background-position: center;    }
+       }
 .facebook { 
-     height: 536px;
+     height: 300px;
     width: 300px;
     background-color: #737373;
     background-image: url(./HomeImages/SocialMedia/FB.png);
    background-repeat: no-repeat;
-    background-position: center;  }
+     }
 
 
 

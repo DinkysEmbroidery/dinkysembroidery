@@ -73,7 +73,7 @@ a {cursor: pointer;}
 .header-main-sm-yt {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/Design\(250\ x\ 350\ px\)\ \(40\ x\ 40\ px\).png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -81,11 +81,11 @@ a {cursor: pointer;}
 .header-main-sm-tk {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/tiktok.png);
     background-repeat: no-repeat;
     background-size: cover;
     
-}  
+}
 
 
 
@@ -112,6 +112,7 @@ h1 {
     flex-wrap: wrap; /*div box wrap*/
     align-content: center;/*center items in main div box*/
     gap: 50px 40px ;
+    
    
 }
 
@@ -125,76 +126,79 @@ h1 {
   align-content: center;}
 .first-row ul li {
     justify-self: center;}
+
   
 .product1 {
     background-image: url(./MensProductPNG/Pets/Rotweiller.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product2 { 
     background-image: url(./MensProductPNG/Pets/Cat\ Face.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product3 {   
     background-image: url(./MensProductPNG/Pets/Untitled\ design\ \(7\).png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 
 .product4 {   
     background-image: url(./MensProductPNG/Marvel/SpiderMLogo.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product5 {   
     background-image: url(./MensProductPNG/Marvel/CaptainALogo.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product6 {
     background-image: url(./MensProductPNG/Marvel/IronManLogo.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product7 {  
     background-image: url(./MensProductPNG/Marvel/Superman\ Logo.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product8 {   
     background-image: url(./MensProductPNG/Marvel/BatManLogo.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
+    
 
 
 
 
 /*Product Details Row 2*/
 .product9 {
-    background-image: url(./MensProductPNG/LabubuSide.png);
+    background-image: url(./MensProductPNG/Car/BlackT\ Car\ \(3\).png);
     height: 360px;
-    width: 250px;}
+    width: 250px;
+    background-repeat: no-repeat;}
 .product10 { 
-    background-image: url(./MensProductPNG/LabubusideBlack.png);
+    background-image: url(./MensProductPNG/Nike/Ghost/whiteT\ \(250\ x\ 350\ px\).png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product11 {   
-    background-image: url(./MensProductPNG/PantheSide.png);
+    background-image: url(./MensProductPNG//Nike/Luffy/Nikelufy1red.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 
 .product12 {   
-    background-image: url(#);
+    background-image: url(./MensProductPNG//Nike/Naruto/BlackT\ \(250\ x\ 350\ px\).png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product13 {   
-    background-image: url(#);
+     background-image: url(./MensProductPNG//Nike/ThubsUp/Nike.png);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product14 {
     background-image: url(#);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product15 {  
     background-image: url(#);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 .product16 {   
     background-image: url(#);
     height: 360px;
-    width: 250px;}
+    width: 250px;background-repeat: no-repeat;}
 

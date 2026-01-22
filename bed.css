@@ -73,7 +73,7 @@ a {cursor: pointer;}
 .header-main-sm-yt {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/Design\(250\ x\ 350\ px\)\ \(40\ x\ 40\ px\).png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -81,11 +81,11 @@ a {cursor: pointer;}
 .header-main-sm-tk {
     width: 20px;
     height: 20px;
-    background-image: url(./Icons/instagram-color.png);
+    background-image: url(./Icons/tiktok.png);
     background-repeat: no-repeat;
     background-size: cover;
     
-}  
+}
 
 
 
